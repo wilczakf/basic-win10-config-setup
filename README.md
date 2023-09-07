@@ -58,11 +58,11 @@ Then you can set global python in terminal by:
 ### 7. Install and configure git
 > choco install git <br>
 > refreshenv <br>
-> git config --global user.name "Filip Wilczak" <br>
-> git config --global user.email majinvlq@gmail.com <br>
+> git config --global user.name "YOUR NAME" <br>
+> git config --global user.email you@mail.com <br>
 
 Create ssh-key if necessary to authenticate connection with GitHub.
-> ssh-keygen -C majinvlq@domain.com <br>
+> ssh-keygen -C your@domain.com <br>
  
 Preferred directory to save ssh keys are given by default in terminal.
 > cat ~/.ssh/id_rsa.pub
